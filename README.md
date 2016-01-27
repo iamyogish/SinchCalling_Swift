@@ -10,3 +10,8 @@ Steps to Run this app:
 3) Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
 
 4) That's it Go Ahead & Run.
+
+
+To Update Sinch SDK in future :
+
+As Sinch SDK is installed as CocoaPod, all we need to do to is run pod update for the project.
