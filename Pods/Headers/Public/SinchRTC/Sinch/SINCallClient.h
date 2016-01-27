@@ -1,0 +1,1 @@
+../../../../SinchRTC/Sinch.framework/Versions/A/Headers/SINCallClient.h
