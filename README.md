@@ -4,6 +4,9 @@ SincCalling_Swift is a sample application for app to app calling using Sinch fra
 Steps to Run this app:
 
 Register yourself at Sinch.
+
 Register your app in Sinch, you'll get the Application Key and Secret.
+
 Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
+
 That's it Go Ahead & Run.
