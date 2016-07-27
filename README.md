@@ -3,15 +3,17 @@ SincCalling_Swift is a sample application for app to app calling using Sinch fra
 
 Steps to Run this app:
 
-1) Register yourself at Sinch.
+1) CD to the project directory & run pod install which will install the necessary dependency.
 
-2) Register your app in Sinch, you'll get the Application Key and Secret.
+2) Register yourself at Sinch.
 
-3) Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
+3) Register your app in Sinch, you'll get the Application Key and Secret.
 
-4) That's it Go Ahead & Run.
+4) Paste the Application Key & Secret in initSinchClientWithUserId method of AppDelegate.
+
+5) That's it Go Ahead & Run.
 
 
 To Update Sinch SDK in future :
 
-As Sinch SDK is installed as CocoaPod, all we need to do to is run pod update for the project.
+As Sinch SDK is installed via. CocoaPod, all we need to do to is run pod update for the project.
