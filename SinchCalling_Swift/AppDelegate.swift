@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SINClientDelegate {
     }
     
     func requestUserNotificationPermission() {
-        if UIApplication.sharedApplication().respondsToSelector("registerUserNotificationSettings") {
+        if UIApplication.sharedApplication().respondsToSelector(#selector(SINManagedPush.registerUserNotificationSettings)) {
             let types: UIUserNotificationType = [.Alert, .Sound]
             let settings = UIUserNotificationSettings(forTypes: types, categories: nil)
             UIApplication.sharedApplication().registerUserNotificationSettings(settings)

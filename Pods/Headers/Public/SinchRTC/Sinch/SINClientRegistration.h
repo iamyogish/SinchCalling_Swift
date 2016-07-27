@@ -1,1 +1,0 @@
-../../../../SinchRTC/Sinch.framework/Versions/A/Headers/SINClientRegistration.h

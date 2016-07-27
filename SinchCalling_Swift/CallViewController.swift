@@ -150,7 +150,7 @@ extension CallViewController {
     
     func startCallDurationTimerWithSelector(selector: Selector) {
         let selectorString  = NSStringFromSelector(selector)
-        durationTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("internal_updateDurartion:"), userInfo: selectorString, repeats: true)
+        durationTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(CallViewController.internal_updateDurartion(_:)), userInfo: selectorString, repeats: true)
     }
     
     func stopCallDurationTimer() {
