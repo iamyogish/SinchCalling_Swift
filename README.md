@@ -3,7 +3,7 @@ SincCalling_Swift is a sample application for app to app calling using Sinch fra
 
 Steps to Run this app:
 
-1) CD to the project directory & run pod install which will install the necessary dependency.
+1) Go to the project directory location in terminal & run pod install which will install the necessary dependency.
 
 2) Register yourself at Sinch.
 
